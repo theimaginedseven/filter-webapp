@@ -1,0 +1,32 @@
+h3{
+    font-size: 25px !important;
+}
+
+.btn-success:hover{
+    border-radius: 30px;
+    background-color: red;
+}
+
+canvas {
+    animation-name: lights;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes lights {
+0%    {box-shadow: 1px 1px 38px #b3ffd9}
+10%   {box-shadow: 1px 1px 38px #99ffcc}
+20%   {box-shadow: 1px 1px 38px #80ffbf}
+30%   {box-shadow: 1px 1px 38px #4dffa6}
+40%   {box-shadow: 1px 1px 38px #00ff80}
+50%   {box-shadow: 1px 1px 38px #00b359}
+60%   {box-shadow: 1px 1px 38px #00ff80}
+70%   {box-shadow: 1px 1px 38px #4dffa6}
+80%   {box-shadow: 1px 1px 38px #80ffbf}
+90%   {box-shadow: 1px 1px 38px #99ffcc}
+100%  {box-shadow: 1px 1px 28px #b3ffd9}
+}
+body{
+background-size: cover;
+background-position: center;
+}
